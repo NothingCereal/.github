@@ -37,9 +37,10 @@ namespace External.Firebase { }
 
 ## Formatting
 ### Attributes
-- Order of attributes: `[Tooltip]`, `[All, Other, Attributes]` together in alphabetical order, `[SerializeField]`.  
+- Order of attributes: `[Header]` (for the section), `[Tooltip]`, `[All, Other, Attributes]` together in alphabetical order, `[SerializeField]`.  
 
 ```csharp
+[Header("Header")]
 [Tooltip("Tooltip.")]
 [AttributeA, AttributeB, AttributeC]
 [SerializeField]
